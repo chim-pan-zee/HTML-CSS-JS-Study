@@ -1,0 +1,36 @@
+.banner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  }
+  
+  .banner span {
+  display: block;
+  position: absolute;
+  background: #1509FF;
+  transition: all 0.5s;
+  }
+
+  .banner span:nth-child(1) {
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 5px;
+  }
+
+  .banner span:nth-child(2) {
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 5px;
+  }
+
+  .banner:hover span:nth-child(1) {
+  width: 100%;
+ 
+  }
+
+  .banner:hover span:nth-child(2) {
+  width: 100%;
+  
+}
